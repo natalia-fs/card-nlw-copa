@@ -105,3 +105,24 @@ footer a {
   color: #F9E757;
   text-decoration: none;
 }
+
+footer > .sub{
+  display: inline-block;
+  width: 264px;
+  padding: .5rem 1rem;
+  margin: 1rem;
+
+  font-size: .85rem;
+  font-weight: bold;
+  
+  color: #000000;
+  background: #F9E757;
+
+  border-radius: .25rem;
+
+  transition: filter .25s;
+}
+
+footer > .sub:hover{
+  filter: brightness(.9);
+}
